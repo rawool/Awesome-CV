@@ -6,7 +6,7 @@ jobs:
   awesome-cv-job:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v6
     - uses: olivierodo/awesome-cv-action@0.0.2
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
